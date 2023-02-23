@@ -1,9 +1,0 @@
-# BreakBoundaryOnSubdomainGenerator
-
-!syntax description /MeshGenerators/BreakBoundaryOnSubdomainGenerator
-
-!syntax parameters /MeshGenerators/BreakBoundaryOnSubdomainGenerator
-
-!syntax inputs /MeshGenerators/BreakBoundaryOnSubdomainGenerator
-
-!syntax children /MeshGenerators/BreakBoundaryOnSubdomainGenerator

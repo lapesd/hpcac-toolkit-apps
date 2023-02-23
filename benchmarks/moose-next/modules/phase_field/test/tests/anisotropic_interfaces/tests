@@ -1,7 +1,0 @@
-[Tests]
-  [./kobayashi]
-    type = 'Exodiff'
-    input = 'kobayashi.i'
-    exodiff = 'kobayashi_out.e'
-  [../]
-[]

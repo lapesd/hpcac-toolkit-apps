@@ -1,1 +1,0 @@
-!template load file=stubs/moose_object.md.template name=ElementH1SemiError syntax=/Postprocessors/ElementH1SemiError

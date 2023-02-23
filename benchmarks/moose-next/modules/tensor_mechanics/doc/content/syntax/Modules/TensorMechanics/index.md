@@ -1,1 +1,0 @@
-!template load file=stubs/moose_system.md.template name=TensorMechanics syntax=/Modules/TensorMechanics

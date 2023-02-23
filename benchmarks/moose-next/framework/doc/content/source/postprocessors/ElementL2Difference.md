@@ -1,1 +1,0 @@
-!template load file=stubs/moose_object.md.template name=ElementL2Difference syntax=/Postprocessors/ElementL2Difference

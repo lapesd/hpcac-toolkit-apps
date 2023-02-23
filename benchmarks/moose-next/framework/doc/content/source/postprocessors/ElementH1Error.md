@@ -1,1 +1,0 @@
-!template load file=stubs/moose_object.md.template name=ElementH1Error syntax=/Postprocessors/ElementH1Error

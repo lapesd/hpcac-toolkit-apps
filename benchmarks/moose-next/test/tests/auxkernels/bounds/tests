@@ -1,8 +1,0 @@
-[Tests]
-  [./test]
-    type = 'Exodiff'
-    input = 'bounds_test.i'
-    exodiff = 'out.e'
-    scale_refine = 3
-  [../]
-[]

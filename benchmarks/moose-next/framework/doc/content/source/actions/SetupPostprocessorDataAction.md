@@ -1,1 +1,0 @@
-!template load file=stubs/moose_action.md.template name=SetupPostprocessorDataAction syntax=/Postprocessors/SetupPostprocessorDataAction

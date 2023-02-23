@@ -1,1 +1,0 @@
-[Contributing to MOOSE](http://mooseframework.org/wiki/Contributing/)

@@ -1,7 +1,0 @@
-[Tests]
-  [./group]
-    type = ImageDiff
-    command = result_group.py
-    imagediff = result_group.png
-  [../]
-[]

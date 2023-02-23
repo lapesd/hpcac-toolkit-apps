@@ -1,7 +1,0 @@
-[Tests]
-  [./test]
-    type = ImageDiff
-    command = cube_source.py
-    imagediff = 'cube_source.png'
-  [../]
-[]
