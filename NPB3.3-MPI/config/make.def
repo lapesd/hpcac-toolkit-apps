@@ -1,0 +1,9 @@
+	MPICC = cc
+	CLINK   = cc
+	CMPI_LIB  = -L/opt/mvapich2-x/gnu7.3.1/mofed/aws/mpirun/lib64 -lmpi
+	CMPI_INC = -I/opt/mvapich2-x/gnu7.3.1/mofed/aws/mpirun/include
+	CFLAGS  = -O
+	CLINKFLAGS = -O
+	CC  = cc -g
+	BINDIR  = ../bin
+	RAND   = randi8
