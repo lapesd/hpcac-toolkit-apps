@@ -1,0 +1,3 @@
+/home/livia/Documentos/hpcac-toolkit-apps/COMBS/matrix-mpi/CMakeFiles/matrix_mpi.dir
+/home/livia/Documentos/hpcac-toolkit-apps/COMBS/matrix-mpi/CMakeFiles/edit_cache.dir
+/home/livia/Documentos/hpcac-toolkit-apps/COMBS/matrix-mpi/CMakeFiles/rebuild_cache.dir

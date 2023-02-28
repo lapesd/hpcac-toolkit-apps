@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/matrix_mpi.dir/main.c.o -o matrix_mpi 

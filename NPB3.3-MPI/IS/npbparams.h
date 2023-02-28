@@ -5,7 +5,7 @@
    It sets the number of processors and the class of the NPB
    in this directory. Do not modify it by hand.   */
    
-#define COMPILETIME "23 Feb 2023"
+#define COMPILETIME "24 Feb 2023"
 #define NPBVERSION "3.3.1"
 #define MPICC "(none)"
 #define CFLAGS "(none)"
