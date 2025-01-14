@@ -9,6 +9,6 @@
 	RAND = randi8
 	F77 = gfortran
 	MPIF77 = mpif90
-	FFLAGS = -O3 -fopenmp -fallow-argument-mismatch
+	FFLAGS = -O3 -fopenmp -fallow-argument-mismatch -fallow-invalid-boz
 	FLINK = $(MPIF77)
 	FLINKFLAGS = $(FFLAGS)
