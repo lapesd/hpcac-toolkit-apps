@@ -1,9 +1,42 @@
-	MPICC = mpicc
-	CLINK = $(MPICC)
-	CMPI_LIB = -L/usr/local/lib -Wl,-rpath,/usr/local/lib -lmpi
-	CMPI_INC = -I/usr/local/include
-	CFLAGS = -O
-	CLINKFLAGS = -O
-	CC = $(MPICC)
-	BINDIR = ../bin
-	RAND = randi8
+# ---------------------------------------------------------------------
+# Compiler and system settings
+# ---------------------------------------------------------------------
+
+# Fortran compiler (default to gfortran)
+F77 = gfortran
+
+# MPI Fortran compiler wrapper
+MPIF77 = mpif90
+
+# C compiler for auxiliary programs (default to MPI C compiler)
+CC = mpicc
+
+# Linker for Fortran (using MPI Fortran compiler)
+FLINK = $(MPIF77)
+
+# Linker for C (using MPI C compiler)
+CLINK = $(MPICC)
+
+# Fortran compilation flags
+FFLAGS = -O3 -fopenmp
+
+# Linker flags for Fortran
+FLINKFLAGS = $(FFLAGS)
+
+# C compilation flags
+CFLAGS = -O3 $(CMPI_INC)
+
+# Linker flags for C
+CLINKFLAGS = -O3 $(CMPI_LIB)
+
+# MPI library paths
+CMPI_LIB = -L/usr/local/lib -Wl,-rpath,/usr/local/lib -lmpi
+
+# MPI include paths
+CMPI_INC = -I/usr/local/include
+
+# Output directory for binaries
+BINDIR = ../bin
+
+# Random number generator setting
+RAND = randi8
